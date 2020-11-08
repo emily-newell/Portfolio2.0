@@ -57,11 +57,18 @@ h1 {
 
 .example1 {
 	display: inline-block;
+	padding:50px;
 	
 }
-	
 
+.example2 {
+	display: inline-block;
+}
 
+.example3 {
+	display: inline-block;
+	padding:50px;
+}
 
 .netflix_button {
 
@@ -74,12 +81,26 @@ h1 {
 	cursor: pointer;
 	}
 
-
-.photographer {
-	background-color: black;
-	color:white;
-
+.photographer_button {
+	background-image:url("photothumbnail.png");
+	background-position: center;
+	background-size:440px;
+	background-repeat: none;
+	height: 200px;
+	width:300px;
+	cursor: pointer;
 }
+
+.subscription_button {
+	background-image:url("subthumbnail.png");
+	background-position: center;
+	background-size:440px;
+	background-repeat: none;
+	height: 200px;
+	width:300px;
+	cursor: pointer;
+}
+
 
 
 .sewsassy {
