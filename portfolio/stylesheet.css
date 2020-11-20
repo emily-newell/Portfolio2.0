@@ -1,6 +1,8 @@
 body {
 	padding: 0px;
 	margin:0px;
+	width: 100%;
+
 	
 
 
@@ -16,29 +18,28 @@ h1 {
 	font-size: 50px;
 	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 	
+	
 
 }
 
 p {
 	font-family:"Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 	font-size:25px;
-
+	 
 
 }
 
-h2 {
+.projects {
 
 	text-align: center;
-	height:300px;
-	font-size: 30px;
+	height:auto;
+	font-size: 20px;
 	font-family:"Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 	margin-left: 25%;
 	margin-right: 25%;
-	margin-top:75px;
-	font-color:blue;
-
-
-
+	margin-top:200px;
+	
+	
 	
 }
 
@@ -49,6 +50,7 @@ i {
 	font-size: 50px;
 	color:white;
 	margin-top: 900px;
+	
 	
 
 	
@@ -89,13 +91,13 @@ i {
 	
 
 .body {
-	height: 300px;
+	height: auto;
 	position: relative;
 }
 
 .start {
-	height:300px;
-	margin:;
+	height:auto;
+	width: auto;
 	background-color:white;
 	font-family:"Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 	font-size:25px;
@@ -106,6 +108,7 @@ i {
 	text-align: center;
 	letter-spacing: 1px; 
 	line-height: 42px;
+	
 
 	
 
@@ -116,10 +119,12 @@ i {
 
 .examples {
 	background-color: white;
-	height: 200px;
+	height:auto;
 	text-align: center;
-	margin-top:-300px;
-	margin-bottom:500px;
+	/*margin-top:-300px;
+	margin-bottom:500px;*/
+	margin:auto;
+	margin-bottom: 200px;
 
 	
 }
@@ -174,8 +179,29 @@ i {
 	width:300px;
 	cursor: pointer;
 	border-radius: 10px;
+		}
 
-}
 
+
+
+	/*@media(max-width: 1000px) {
+	.body {
+		height: 90vh;
+	}
+		
+
+	@media(max-width: 950px) {
+	 .body {
+		height: 70vh;
+	}*/
+		
+		
+
+	@media only screen and (max-width: 100px){
+			.body {
+				height: 70vh;
+
+			}
+		}
 
 
